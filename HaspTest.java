@@ -21,6 +21,9 @@ public class HaspTest {
             }else if (getString.equals("3")) {
                 System.out.println("所有信息");
                 mEG.showAllInfo();
+            }else if (getString.equals("4")) {
+                System.out.println("更改姓名");
+                mEG.changeName();
             }
         }
     }
